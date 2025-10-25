@@ -1,47 +1,91 @@
-# Task Manager - Full Stack Application
+# Task Manager# Task Manager - Full Stack Application
 
-A simple task manager application built with .NET 8 Core (Backend) and React + TypeScript (Frontend).
 
-## Features
 
-- ✅ Display a list of tasks
+A full-stack task manager application built with .NET 8 Core (Backend) and React + TypeScript (Frontend).A simple task manager application built with .NET 8 Core (Backend) and React + TypeScript (Frontend).
+
+
+
+🌐 **Live Demo:** https://harsha-050.github.io/Task-manager-app/## Features
+
+
+
+## Features- ✅ Display a list of tasks
+
 - ✅ Add a new task with description
-- ✅ Toggle task completion status
-- ✅ Edit task description
-- ✅ Delete a task
-- ✅ In-memory data storage (no database required)
+
+- Add, edit, and delete tasks- ✅ Toggle task completion status
+
+- Toggle task completion status- ✅ Edit task description
+
+- RESTful API with Swagger documentation- ✅ Delete a task
+
+- In-memory data storage- ✅ In-memory data storage (no database required)
+
 - ✅ RESTful API with Swagger documentation
+
+## Technologies
 
 ## Project Structure
 
-```
-Project 1/
+**Backend**
+
+- .NET 8 Core Web API```
+
+- Swagger/OpenAPIProject 1/
+
 ├── Backend/
-│   └── TaskManagerAPI/          # .NET 8 Web API
-│       ├── Controllers/         # API Controllers
-│       ├── Models/             # Data Models
-│       └── Program.cs          # Application entry point
+
+**Frontend**│   └── TaskManagerAPI/          # .NET 8 Web API
+
+- React 18 + TypeScript│       ├── Controllers/         # API Controllers
+
+- Vite│       ├── Models/             # Data Models
+
+- Axios│       └── Program.cs          # Application entry point
+
 └── Frontend/
-    └── src/                    # React + TypeScript App
+
+## Deployment    └── src/                    # React + TypeScript App
+
         ├── api/                # API integration
-        ├── App.tsx            # Main component
-        └── main.tsx           # React entry point
+
+- **Frontend:** GitHub Pages        ├── App.tsx            # Main component
+
+- **Backend:** Render        └── main.tsx           # React entry point
+
 ```
+
+## Local Development
 
 ## Prerequisites
 
-### Backend (.NET 8)
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+**Backend:**
 
-### Frontend (React + TypeScript)
-- [Node.js](https://nodejs.org/) (v18 or higher)
+```bash### Backend (.NET 8)
+
+cd Backend/TaskManagerAPI- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+
+dotnet restore
+
+dotnet run### Frontend (React + TypeScript)
+
+```- [Node.js](https://nodejs.org/) (v18 or higher)
+
 - npm (comes with Node.js)
 
-## Installation & Setup
+**Frontend:**
 
-### 1. Backend Setup
+```bash## Installation & Setup
 
-Navigate to the backend directory:
+cd Frontend
+
+npm install### 1. Backend Setup
+
+npm run dev
+
+```Navigate to the backend directory:
+
 ```powershell
 cd "c:\Users\yashr\Project 1\Backend\TaskManagerAPI"
 ```
